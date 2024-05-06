@@ -31,6 +31,8 @@ $ git remote set-url origin https://<GitID>@github.com/<GitID>/<git주소>.git
 
 $ git remote set-url origin https://tjoeunsch2101@github.com/tjoeunsch2101/example.git
 
+
+$ git push -u origin main
  라고 입력하면  token 입력하라는 팝업이 뜸
  입력하면 push 가 진행됨
 
