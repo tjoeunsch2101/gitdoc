@@ -1,7 +1,7 @@
 기존에 존재하고 있던 Git Repository 에서 새로운 Repository 로 옮길 시 다음과 같은 이슈가 발생합니다.
  
 $ git push -u origin main
- 하면 git remote: Permission to .. denied to error: 403 에러 발생함
+ 하면 git remote: Permission to .. denied to error: 403 에러 발생하는 경우
 
 
 $ git remote -v
