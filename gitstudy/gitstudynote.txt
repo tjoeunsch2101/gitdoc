@@ -1,4 +1,7 @@
 기존에 존재하고 있던 Git Repository 에서 새로운 Repository 로 옮길 시 다음과 같은 이슈가 발생합니다.
+ 
+$ git push -u origin main
+ 하면 git remote: Permission to .. denied to error: 403 에러 발생함
 
 
 $ git remote -v
@@ -27,6 +30,9 @@ $ git remote set-url origin https://<GitID>@github.com/<GitID>/<git주소>.git
   (<, > 은 포함하지 않습니다.)
 
 $ git remote set-url origin https://tjoeunsch2101@github.com/tjoeunsch2101/example.git
+
+ 라고 입력하면  token 입력하라는 팝업이 뜸
+ 입력하면 push 가 진행됨
 
 $ git remote -v
 origin  https://tjoeunsch2101@github.com/tjoeunsch2101/gitdoc.git (fetch)
