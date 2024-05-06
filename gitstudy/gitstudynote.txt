@@ -1,0 +1,36 @@
+기존에 존재하고 있던 Git Repository 에서 새로운 Repository 로 옮길 시 다음과 같은 이슈가 발생합니다.
+
+
+$ git remote -v
+origin  https://github.com/tjoeunsch2101/gitdoc.git (fetch)
+origin  https://github.com/tjoeunsch2101/gitdoc.git (push)
+
+  ㄴ github  앞에 tjoeunsch2101@  가 보이지 않음
+
+
+따라서 변경해야할 몇 가지 부분이 있습니다..반영할 프로젝트 폴더로 이동 후 
+Git 초기화 및 '사용자 이름'과 '이메일'을 설정 합니다.
+
+$ git rm *
+  ㄴ engstudy 폴더를 git repository 에서만 삭제하고  local  에서는 남길 경우, 
+      git rm --cached -r engstudy/ 라고 입력함
+
+$ git init
+
+ 
+$ git config --global user.name "lew"
+$ git config --global user.email bit4math@example.com
+ 
+
+remote을 현재 변경할 Git ID 등록하기
+$ git remote set-url origin https://<GitID>@github.com/<GitID>/<git주소>.git
+  (<, > 은 포함하지 않습니다.)
+
+$ git remote set-url origin https://tjoeunsch2101@github.com/tjoeunsch2101/example.git
+
+$ git remote -v
+origin  https://tjoeunsch2101@github.com/tjoeunsch2101/gitdoc.git (fetch)
+origin  https://tjoeunsch2101@github.com/tjoeunsch2101/gitdoc.git (push)
+
+  ㄴ github  앞에 tjoeunsch2101@  가 보임
+
