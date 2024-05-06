@@ -1,22 +1,22 @@
-±âÁ¸¿¡ Á¸ÀçÇÏ°í ÀÖ´ø Git Repository ¿¡¼­ »õ·Î¿î Repository ·Î ¿Å±æ ½Ã ´ÙÀ½°ú °°Àº ÀÌ½´°¡ ¹ß»ıÇÕ´Ï´Ù.
+ê¸°ì¡´ì— ì¡´ì¬í•˜ê³  ìˆë˜ Git Repository ì—ì„œ ìƒˆë¡œìš´ Repository ë¡œ ì˜®ê¸¸ ì‹œ ë‹¤ìŒê³¼ ê°™ì€ ì´ìŠˆê°€ ë°œìƒí•©ë‹ˆë‹¤.
  
 $ git push -u origin main
- ÇÏ¸é git remote: Permission to .. denied to error: 403 ¿¡·¯ ¹ß»ıÇÔ
+ í•˜ë©´ git remote: Permission to .. denied to error: 403 ì—ëŸ¬ ë°œìƒí•¨
 
 
 $ git remote -v
 origin  https://github.com/tjoeunsch2101/gitdoc.git (fetch)
 origin  https://github.com/tjoeunsch2101/gitdoc.git (push)
 
-  ¤¤ github  ¾Õ¿¡ tjoeunsch2101@  °¡ º¸ÀÌÁö ¾ÊÀ½
+  ã„´ github  ì•ì— tjoeunsch2101@  ê°€ ë³´ì´ì§€ ì•ŠìŒ
 
 
-µû¶ó¼­ º¯°æÇØ¾ßÇÒ ¸î °¡Áö ºÎºĞÀÌ ÀÖ½À´Ï´Ù..¹İ¿µÇÒ ÇÁ·ÎÁ§Æ® Æú´õ·Î ÀÌµ¿ ÈÄ 
-Git ÃÊ±âÈ­ ¹× '»ç¿ëÀÚ ÀÌ¸§'°ú 'ÀÌ¸ŞÀÏ'À» ¼³Á¤ ÇÕ´Ï´Ù.
+ë”°ë¼ì„œ ë³€ê²½í•´ì•¼í•  ëª‡ ê°€ì§€ ë¶€ë¶„ì´ ìˆìŠµë‹ˆë‹¤..ë°˜ì˜í•  í”„ë¡œì íŠ¸ í´ë”ë¡œ ì´ë™ í›„ 
+Git ì´ˆê¸°í™” ë° 'ì‚¬ìš©ì ì´ë¦„'ê³¼ 'ì´ë©”ì¼'ì„ ì„¤ì • í•©ë‹ˆë‹¤.
 
 $ git rm *
-  ¤¤ engstudy Æú´õ¸¦ git repository ¿¡¼­¸¸ »èÁ¦ÇÏ°í  local  ¿¡¼­´Â ³²±æ °æ¿ì, 
-      git rm --cached -r engstudy/ ¶ó°í ÀÔ·ÂÇÔ
+  ã„´ engstudy í´ë”ë¥¼ git repository ì—ì„œë§Œ ì‚­ì œí•˜ê³   local  ì—ì„œëŠ” ë‚¨ê¸¸ ê²½ìš°, 
+      git rm --cached -r engstudy/ ë¼ê³  ì…ë ¥í•¨
 
 $ git init
 
@@ -25,18 +25,18 @@ $ git config --global user.name "lew"
 $ git config --global user.email bit4math@example.com
  
 
-remoteÀ» ÇöÀç º¯°æÇÒ Git ID µî·ÏÇÏ±â
-$ git remote set-url origin https://<GitID>@github.com/<GitID>/<gitÁÖ¼Ò>.git
-  (<, > Àº Æ÷ÇÔÇÏÁö ¾Ê½À´Ï´Ù.)
+remoteì„ í˜„ì¬ ë³€ê²½í•  Git ID ë“±ë¡í•˜ê¸°
+$ git remote set-url origin https://<GitID>@github.com/<GitID>/<gitì£¼ì†Œ>.git
+  (<, > ì€ í¬í•¨í•˜ì§€ ì•ŠìŠµë‹ˆë‹¤.)
 
 $ git remote set-url origin https://tjoeunsch2101@github.com/tjoeunsch2101/example.git
 
- ¶ó°í ÀÔ·ÂÇÏ¸é  token ÀÔ·ÂÇÏ¶ó´Â ÆË¾÷ÀÌ ¶ä
- ÀÔ·ÂÇÏ¸é push °¡ ÁøÇàµÊ
+ ë¼ê³  ì…ë ¥í•˜ë©´  token ì…ë ¥í•˜ë¼ëŠ” íŒì—…ì´ ëœ¸
+ ì…ë ¥í•˜ë©´ push ê°€ ì§„í–‰ë¨
 
 $ git remote -v
 origin  https://tjoeunsch2101@github.com/tjoeunsch2101/gitdoc.git (fetch)
 origin  https://tjoeunsch2101@github.com/tjoeunsch2101/gitdoc.git (push)
 
-  ¤¤ github  ¾Õ¿¡ tjoeunsch2101@  °¡ º¸ÀÓ
+  ã„´ github  ì•ì— tjoeunsch2101@  ê°€ ë³´ì„
 

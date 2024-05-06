@@ -1,1 +1,3 @@
-Hello, english study members !!!
+Hello, english study members !!! 
+
+한글 처리를 위한  encoding 변경 utf-8
